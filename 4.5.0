@@ -1,0 +1,2 @@
+Requirement already satisfied: opencv-python in c:\users\amank\desktop\data science\deep learning\rock paper scissor detector\rspvenv\lib\site-packages (4.12.0.88)
+Requirement already satisfied: numpy<2.3.0,>=2 in c:\users\amank\desktop\data science\deep learning\rock paper scissor detector\rspvenv\lib\site-packages (from opencv-python) (2.2.6)
