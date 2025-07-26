@@ -9,8 +9,12 @@ st.title("Rock-Paper-Scissors Detector ✌️✊✋")
 st.warning("⚠️ **Note:** The model is trained on real hand images and may not perform accurately on drawings, animations, or cartoon-style inputs. For best results, please use actual hand gesture photographs.")
 
 # Load YOLOv8 detection model
-model_path = r'C:\Users\amank\Desktop\Data Science\Deep Learning\Rock Paper Scissor\best_model\runs\detect\train\weights\best.pt'  # replace with your actual trained model path
+# model_path = r'C:\Users\amank\Desktop\Data Science\Deep Learning\Rock Paper Scissor\best_model\runs\detect\train\weights\best.pt'  # replace with your actual trained model path
+
+# Use relative path
+model_path = "best_model/runs/detect/train/weights/best.pt"
 model = YOLO(model_path)
+
 
 # File uploader
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
