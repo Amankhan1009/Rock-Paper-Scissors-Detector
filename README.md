@@ -1,6 +1,13 @@
 
 # 🪨✂️🧻 Rock-Paper-Scissors Detection App (YOLOv8 + Streamlit)
 
+# 🪨✂️🧻 Rock-Paper-Scissors Detection App (YOLOv8 + Streamlit)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://amankhan-rockpaperscissrdetector.streamlit.app/)
+
+🎯 [Click here to try the live app on Streamlit!](https://amankhan-rockpaperscissrdetector.streamlit.app/)
+
+
 This is a web-based Rock-Paper-Scissors object detection app built using **YOLOv8** and **Streamlit**. It allows users to upload an image and get predictions using a custom-trained YOLOv8 model.
 
 ## 🚀 Features
