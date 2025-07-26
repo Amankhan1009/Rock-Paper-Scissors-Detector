@@ -1,16 +1,16 @@
 
-# 🪨✂️🧻 Rock-Paper-Scissors Detection App (YOLOv8 + Streamlit)
+# 🪨✂️🧻 Rock-Paper-Scissors Detection App (YOLOv11n + Streamlit)
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://amankhan-rockpaperscissrdetector.streamlit.app/)
 
 🎯 [Click here to try the live app on Streamlit!](https://amankhan-rockpaperscissrdetector.streamlit.app/)
 
 
-This is a web-based Rock-Paper-Scissors object detection app built using **YOLOv8** and **Streamlit**. It allows users to upload an image and get predictions using a custom-trained YOLOv8 model.
+This is a web-based Rock-Paper-Scissors object detection app built using **YOLOv11n** and **Streamlit**. It allows users to upload an image and get predictions using a custom-trained YOLO11n model.
 
 ## 🚀 Features
 
-- Built using **YOLOv8** for real-time object detection.
+- Built using **YOLO11n** for real-time object detection.
 - Supports **image upload and detection** with bounding boxes.
 - Interactive **Streamlit UI**.
 - Automatically shows prediction results after clicking **Predict**.
@@ -21,7 +21,7 @@ This is a web-based Rock-Paper-Scissors object detection app built using **YOLOv
 ```
 📦 Rock-Paper-Scissor/
 ├── app.py                  # Streamlit frontend app
-├── best.pt                 # Trained YOLOv8 detection model
+├── best.pt                 # Trained YOLO11n detection model
 ├── dataset: https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw                # Training data (optional if you want to retrain)
 ├── Rock_Paper_Scissor_Detection.ipynb  # Training notebook
 ├── Requirements.txt        # Required packages
@@ -32,7 +32,7 @@ This is a web-based Rock-Paper-Scissors object detection app built using **YOLOv
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/rock-paper-scissors-app.git
+git clone https://github.com/Amankhan1009/Rock-Paper-Scissors-Detector.git
 cd rock-paper-scissors-app
 ```
 
@@ -83,7 +83,7 @@ yolo detect train model=yolov11n.pt data=data.yaml epochs=50 imgsz=640
 
 ## 🙌 Acknowledgements
 
-- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+- [Ultralytics YOLO11n](https://github.com/ultralytics/ultralytics)
 - Streamlit for the UI
 - Custom dataset (Rock-Paper-Scissors)
 
@@ -101,6 +101,6 @@ yolo detect train model=yolov11n.pt data=data.yaml epochs=50 imgsz=640
 
 ## 🧑‍💻 Author
 
-**Aman Khan**  
+**Md Aman Alam**  
 Final-year undergrad passionate about AI & Deep Learning.  
 [GitHub](https://github.com/Amankhan1009)
