@@ -1,0 +1,5 @@
+streamlit
+ultralytics>=8.0.0,<8.4.0
+numpy
+pillow
+opencv-python-headless==4.9.0.80
