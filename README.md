@@ -1,8 +1,6 @@
 
 # 🪨✂️🧻 Rock-Paper-Scissors Detection App (YOLOv8 + Streamlit)
 
-# 🪨✂️🧻 Rock-Paper-Scissors Detection App (YOLOv8 + Streamlit)
-
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://amankhan-rockpaperscissrdetector.streamlit.app/)
 
 🎯 [Click here to try the live app on Streamlit!](https://amankhan-rockpaperscissrdetector.streamlit.app/)
